@@ -1,0 +1,954 @@
+@font-face {
+  font-family: SourceCodePro;
+  src: url(../Source_Code_Pro/SourceCodePro-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: amatic;
+  src: url(../Amatic_SC/AmaticSC-Bold.ttf);
+}
+.first_section > .row {
+  justify-content: center;
+}
+.first_section > .row > header {
+  width: 100%;
+  min-height: 15vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+.first_section > .row > header > .row {
+  width: 60%;
+  height: 100%;
+  background-color: white;
+  padding-left: 30px;
+}
+.first_section > .row > header > .row > figure {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.first_section > .row > header > .row > figure > .row > img {
+  width: 90%;
+}
+.first_section > .row > header > .row > figure > .row > figcaption {
+  padding-top: 5px;
+  font-size: 13px;
+  color: rgb(139, 139, 139);
+  font-weight: lighter;
+}
+.first_section > .row > header > .row > nav {
+  width: 70%;
+}
+.first_section > .row > header > .row > nav > ul {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.first_section > .row > header > .row > nav > ul > li {
+  padding: 20px;
+}
+.first_section > .row > header > .row > nav > ul > li > a {
+  text-transform: uppercase;
+  font-family: SourceCodePro;
+  font-weight: bold;
+  transition: 0.4s;
+}
+.first_section > .row > header > .row > nav > ul > li > a:hover {
+  color: salmon;
+  font-size: 17px;
+}
+.first_section > .row > header > .row > div {
+  width: 15%;
+  padding-left: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.first_section > .row > header > .row > div > a > i {
+  font-size: 20px;
+  transition: 0.4s;
+}
+.first_section > .row > header > .row > div > a > i:hover {
+  font-size: 22px;
+  color: salmon;
+}
+
+.second_section {
+  background-color: black;
+  width: 100%;
+  min-height: 200vh;
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.second_section .grid {
+  width: 60%;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(13, 1fr);
+  gap: 30px;
+}
+.second_section .grid > div {
+  outline: 4px solid white;
+}
+.second_section .grid > div:nth-of-type(1) {
+  grid-area: 1/1/span 3/span 2;
+  position: relative;
+}
+.second_section .grid > div:nth-of-type(1):hover > .dark {
+  opacity: 1;
+}
+.second_section .grid > div:nth-of-type(1) > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.second_section .grid > div:nth-of-type(1) > .dark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.454);
+  opacity: 0;
+  transition: 0.4s;
+  display: flex;
+  align-items: end;
+}
+.second_section .grid > div:nth-of-type(1) > .dark > .caption {
+  display: flex;
+  height: 40px;
+  width: 100%;
+  background-color: rgba(241, 241, 241, 0.712);
+  justify-content: space-evenly;
+}
+.second_section .grid > div:nth-of-type(1) > .dark > .caption > a {
+  display: flex;
+  height: 100%;
+  width: 33%;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+.second_section .grid > div:nth-of-type(1) > .dark > .caption > a:hover {
+  background-color: white;
+}
+.second_section .grid > div:nth-of-type(1) > .dark > .caption > a > i {
+  font-size: 20px;
+}
+.second_section .grid > div:nth-of-type(2) {
+  grid-area: 1/3/span 2/span 2;
+  position: relative;
+}
+.second_section .grid > div:nth-of-type(2):hover > .dark {
+  opacity: 1;
+}
+.second_section .grid > div:nth-of-type(2) > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.second_section .grid > div:nth-of-type(2) > .dark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.454);
+  opacity: 0;
+  transition: 0.4s;
+  display: flex;
+  align-items: end;
+}
+.second_section .grid > div:nth-of-type(2) > .dark > .caption {
+  display: flex;
+  height: 40px;
+  width: 100%;
+  background-color: rgba(241, 241, 241, 0.712);
+  justify-content: space-evenly;
+}
+.second_section .grid > div:nth-of-type(2) > .dark > .caption > a {
+  display: flex;
+  height: 100%;
+  width: 33%;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+.second_section .grid > div:nth-of-type(2) > .dark > .caption > a:hover {
+  background-color: white;
+}
+.second_section .grid > div:nth-of-type(2) > .dark > .caption > a > i {
+  font-size: 20px;
+}
+.second_section .grid > div:nth-of-type(3) {
+  grid-area: 1/5/span 2/span 2;
+  position: relative;
+}
+.second_section .grid > div:nth-of-type(3):hover > .dark {
+  opacity: 1;
+}
+.second_section .grid > div:nth-of-type(3) > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.second_section .grid > div:nth-of-type(3) > .dark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.454);
+  opacity: 0;
+  transition: 0.4s;
+  display: flex;
+  align-items: end;
+}
+.second_section .grid > div:nth-of-type(3) > .dark > .caption {
+  display: flex;
+  height: 40px;
+  width: 100%;
+  background-color: rgba(241, 241, 241, 0.712);
+  justify-content: space-evenly;
+}
+.second_section .grid > div:nth-of-type(3) > .dark > .caption > a {
+  display: flex;
+  height: 100%;
+  width: 33%;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+.second_section .grid > div:nth-of-type(3) > .dark > .caption > a:hover {
+  background-color: white;
+}
+.second_section .grid > div:nth-of-type(3) > .dark > .caption > a > i {
+  font-size: 20px;
+}
+.second_section .grid > div:nth-of-type(4) {
+  grid-area: 1/7/span 3/span 2;
+  position: relative;
+}
+.second_section .grid > div:nth-of-type(4):hover > .dark {
+  opacity: 1;
+}
+.second_section .grid > div:nth-of-type(4) > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.second_section .grid > div:nth-of-type(4) > .dark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.454);
+  opacity: 0;
+  transition: 0.4s;
+  display: flex;
+  align-items: end;
+}
+.second_section .grid > div:nth-of-type(4) > .dark > .caption {
+  display: flex;
+  height: 40px;
+  width: 100%;
+  background-color: rgba(241, 241, 241, 0.712);
+  justify-content: space-evenly;
+}
+.second_section .grid > div:nth-of-type(4) > .dark > .caption > a {
+  display: flex;
+  height: 100%;
+  width: 33%;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+.second_section .grid > div:nth-of-type(4) > .dark > .caption > a:hover {
+  background-color: white;
+}
+.second_section .grid > div:nth-of-type(4) > .dark > .caption > a > i {
+  font-size: 20px;
+}
+.second_section .grid > div:nth-of-type(5) {
+  grid-area: 4/1/span 3/span 2;
+  position: relative;
+}
+.second_section .grid > div:nth-of-type(5):hover > .dark {
+  opacity: 1;
+}
+.second_section .grid > div:nth-of-type(5) > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.second_section .grid > div:nth-of-type(5) > .dark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.454);
+  opacity: 0;
+  transition: 0.4s;
+  display: flex;
+  align-items: end;
+}
+.second_section .grid > div:nth-of-type(5) > .dark > .caption {
+  display: flex;
+  height: 40px;
+  width: 100%;
+  background-color: rgba(241, 241, 241, 0.712);
+  justify-content: space-evenly;
+}
+.second_section .grid > div:nth-of-type(5) > .dark > .caption > a {
+  display: flex;
+  height: 100%;
+  width: 33%;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+.second_section .grid > div:nth-of-type(5) > .dark > .caption > a:hover {
+  background-color: white;
+}
+.second_section .grid > div:nth-of-type(5) > .dark > .caption > a > i {
+  font-size: 20px;
+}
+.second_section .grid > div:nth-of-type(6) {
+  grid-area: 3/3/span 3/span 2;
+  position: relative;
+}
+.second_section .grid > div:nth-of-type(6):hover > .dark {
+  opacity: 1;
+}
+.second_section .grid > div:nth-of-type(6) > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.second_section .grid > div:nth-of-type(6) > .dark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.454);
+  opacity: 0;
+  transition: 0.4s;
+  display: flex;
+  align-items: end;
+}
+.second_section .grid > div:nth-of-type(6) > .dark > .caption {
+  display: flex;
+  height: 40px;
+  width: 100%;
+  background-color: rgba(241, 241, 241, 0.712);
+  justify-content: space-evenly;
+}
+.second_section .grid > div:nth-of-type(6) > .dark > .caption > a {
+  display: flex;
+  height: 100%;
+  width: 33%;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+.second_section .grid > div:nth-of-type(6) > .dark > .caption > a:hover {
+  background-color: white;
+}
+.second_section .grid > div:nth-of-type(6) > .dark > .caption > a > i {
+  font-size: 20px;
+}
+.second_section .grid > div:nth-of-type(7) {
+  grid-area: 3/5/span 2/span 2;
+  position: relative;
+}
+.second_section .grid > div:nth-of-type(7):hover > .dark {
+  opacity: 1;
+}
+.second_section .grid > div:nth-of-type(7) > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.second_section .grid > div:nth-of-type(7) > .dark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.454);
+  opacity: 0;
+  transition: 0.4s;
+  display: flex;
+  align-items: end;
+}
+.second_section .grid > div:nth-of-type(7) > .dark > .caption {
+  display: flex;
+  height: 40px;
+  width: 100%;
+  background-color: rgba(241, 241, 241, 0.712);
+  justify-content: space-evenly;
+}
+.second_section .grid > div:nth-of-type(7) > .dark > .caption > a {
+  display: flex;
+  height: 100%;
+  width: 33%;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+.second_section .grid > div:nth-of-type(7) > .dark > .caption > a:hover {
+  background-color: white;
+}
+.second_section .grid > div:nth-of-type(7) > .dark > .caption > a > i {
+  font-size: 20px;
+}
+.second_section .grid > div:nth-of-type(8) {
+  grid-area: 4/7/span 3/span 2;
+  position: relative;
+}
+.second_section .grid > div:nth-of-type(8):hover > .dark {
+  opacity: 1;
+}
+.second_section .grid > div:nth-of-type(8) > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.second_section .grid > div:nth-of-type(8) > .dark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.454);
+  opacity: 0;
+  transition: 0.4s;
+  display: flex;
+  align-items: end;
+}
+.second_section .grid > div:nth-of-type(8) > .dark > .caption {
+  display: flex;
+  height: 40px;
+  width: 100%;
+  background-color: rgba(241, 241, 241, 0.712);
+  justify-content: space-evenly;
+}
+.second_section .grid > div:nth-of-type(8) > .dark > .caption > a {
+  display: flex;
+  height: 100%;
+  width: 33%;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+.second_section .grid > div:nth-of-type(8) > .dark > .caption > a:hover {
+  background-color: white;
+}
+.second_section .grid > div:nth-of-type(8) > .dark > .caption > a > i {
+  font-size: 20px;
+}
+.second_section .grid > div:nth-of-type(9) {
+  grid-area: 7/1/span 3/span 2;
+  position: relative;
+}
+.second_section .grid > div:nth-of-type(9):hover > .dark {
+  opacity: 1;
+}
+.second_section .grid > div:nth-of-type(9) > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: right;
+     object-position: right;
+}
+.second_section .grid > div:nth-of-type(9) > .dark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.454);
+  opacity: 0;
+  transition: 0.4s;
+  display: flex;
+  align-items: end;
+}
+.second_section .grid > div:nth-of-type(9) > .dark > .caption {
+  display: flex;
+  height: 40px;
+  width: 100%;
+  background-color: rgba(241, 241, 241, 0.712);
+  justify-content: space-evenly;
+}
+.second_section .grid > div:nth-of-type(9) > .dark > .caption > a {
+  display: flex;
+  height: 100%;
+  width: 33%;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+.second_section .grid > div:nth-of-type(9) > .dark > .caption > a:hover {
+  background-color: white;
+}
+.second_section .grid > div:nth-of-type(9) > .dark > .caption > a > i {
+  font-size: 20px;
+}
+.second_section .grid > div:nth-of-type(10) {
+  grid-area: 6/3/span 3/span 2;
+  position: relative;
+}
+.second_section .grid > div:nth-of-type(10):hover > .dark {
+  opacity: 1;
+}
+.second_section .grid > div:nth-of-type(10) > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.second_section .grid > div:nth-of-type(10) > .dark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.454);
+  opacity: 0;
+  transition: 0.4s;
+  display: flex;
+  align-items: end;
+}
+.second_section .grid > div:nth-of-type(10) > .dark > .caption {
+  display: flex;
+  height: 40px;
+  width: 100%;
+  background-color: rgba(241, 241, 241, 0.712);
+  justify-content: space-evenly;
+}
+.second_section .grid > div:nth-of-type(10) > .dark > .caption > a {
+  display: flex;
+  height: 100%;
+  width: 33%;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+.second_section .grid > div:nth-of-type(10) > .dark > .caption > a:hover {
+  background-color: white;
+}
+.second_section .grid > div:nth-of-type(10) > .dark > .caption > a > i {
+  font-size: 20px;
+}
+.second_section .grid > div:nth-of-type(11) {
+  grid-area: 5/5/span 3/span 2;
+  position: relative;
+}
+.second_section .grid > div:nth-of-type(11):hover > .dark {
+  opacity: 1;
+}
+.second_section .grid > div:nth-of-type(11) > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.second_section .grid > div:nth-of-type(11) > .dark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.454);
+  opacity: 0;
+  transition: 0.4s;
+  display: flex;
+  align-items: end;
+}
+.second_section .grid > div:nth-of-type(11) > .dark > .caption {
+  display: flex;
+  height: 40px;
+  width: 100%;
+  background-color: rgba(241, 241, 241, 0.712);
+  justify-content: space-evenly;
+}
+.second_section .grid > div:nth-of-type(11) > .dark > .caption > a {
+  display: flex;
+  height: 100%;
+  width: 33%;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+.second_section .grid > div:nth-of-type(11) > .dark > .caption > a:hover {
+  background-color: white;
+}
+.second_section .grid > div:nth-of-type(11) > .dark > .caption > a > i {
+  font-size: 20px;
+}
+.second_section .grid > div:nth-of-type(12) {
+  grid-area: 7/7/span 3/span 2;
+  position: relative;
+}
+.second_section .grid > div:nth-of-type(12):hover > .dark {
+  opacity: 1;
+}
+.second_section .grid > div:nth-of-type(12) > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.second_section .grid > div:nth-of-type(12) > .dark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.454);
+  opacity: 0;
+  transition: 0.4s;
+  display: flex;
+  align-items: end;
+}
+.second_section .grid > div:nth-of-type(12) > .dark > .caption {
+  display: flex;
+  height: 40px;
+  width: 100%;
+  background-color: rgba(241, 241, 241, 0.712);
+  justify-content: space-evenly;
+}
+.second_section .grid > div:nth-of-type(12) > .dark > .caption > a {
+  display: flex;
+  height: 100%;
+  width: 33%;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+.second_section .grid > div:nth-of-type(12) > .dark > .caption > a:hover {
+  background-color: white;
+}
+.second_section .grid > div:nth-of-type(12) > .dark > .caption > a > i {
+  font-size: 20px;
+}
+.second_section .grid > div:nth-of-type(13) {
+  grid-area: 10/1/span 3/span 2;
+  position: relative;
+}
+.second_section .grid > div:nth-of-type(13):hover > .dark {
+  opacity: 1;
+}
+.second_section .grid > div:nth-of-type(13) > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.second_section .grid > div:nth-of-type(13) > .dark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.454);
+  opacity: 0;
+  transition: 0.4s;
+  display: flex;
+  align-items: end;
+}
+.second_section .grid > div:nth-of-type(13) > .dark > .caption {
+  display: flex;
+  height: 40px;
+  width: 100%;
+  background-color: rgba(241, 241, 241, 0.712);
+  justify-content: space-evenly;
+}
+.second_section .grid > div:nth-of-type(13) > .dark > .caption > a {
+  display: flex;
+  height: 100%;
+  width: 33%;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+.second_section .grid > div:nth-of-type(13) > .dark > .caption > a:hover {
+  background-color: white;
+}
+.second_section .grid > div:nth-of-type(13) > .dark > .caption > a > i {
+  font-size: 20px;
+}
+.second_section .grid > div:nth-of-type(14) {
+  grid-area: 9/3/span 3/span 2;
+  position: relative;
+}
+.second_section .grid > div:nth-of-type(14):hover > .dark {
+  opacity: 1;
+}
+.second_section .grid > div:nth-of-type(14) > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.second_section .grid > div:nth-of-type(14) > .dark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.454);
+  opacity: 0;
+  transition: 0.4s;
+  display: flex;
+  align-items: end;
+}
+.second_section .grid > div:nth-of-type(14) > .dark > .caption {
+  display: flex;
+  height: 40px;
+  width: 100%;
+  background-color: rgba(241, 241, 241, 0.712);
+  justify-content: space-evenly;
+}
+.second_section .grid > div:nth-of-type(14) > .dark > .caption > a {
+  display: flex;
+  height: 100%;
+  width: 33%;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+.second_section .grid > div:nth-of-type(14) > .dark > .caption > a:hover {
+  background-color: white;
+}
+.second_section .grid > div:nth-of-type(14) > .dark > .caption > a > i {
+  font-size: 20px;
+}
+.second_section .grid > div:nth-of-type(15) {
+  grid-area: 8/5/span 3/span 2;
+  position: relative;
+}
+.second_section .grid > div:nth-of-type(15):hover > .dark {
+  opacity: 1;
+}
+.second_section .grid > div:nth-of-type(15) > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.second_section .grid > div:nth-of-type(15) > .dark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.454);
+  opacity: 0;
+  transition: 0.4s;
+  display: flex;
+  align-items: end;
+}
+.second_section .grid > div:nth-of-type(15) > .dark > .caption {
+  display: flex;
+  height: 40px;
+  width: 100%;
+  background-color: rgba(241, 241, 241, 0.712);
+  justify-content: space-evenly;
+}
+.second_section .grid > div:nth-of-type(15) > .dark > .caption > a {
+  display: flex;
+  height: 100%;
+  width: 33%;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+.second_section .grid > div:nth-of-type(15) > .dark > .caption > a:hover {
+  background-color: white;
+}
+.second_section .grid > div:nth-of-type(15) > .dark > .caption > a > i {
+  font-size: 20px;
+}
+.second_section .grid > div:nth-of-type(16) {
+  grid-area: 10/7/span 2/span 2;
+  position: relative;
+}
+.second_section .grid > div:nth-of-type(16):hover > .dark {
+  opacity: 1;
+}
+.second_section .grid > div:nth-of-type(16) > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.second_section .grid > div:nth-of-type(16) > .dark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.454);
+  opacity: 0;
+  transition: 0.4s;
+  display: flex;
+  align-items: end;
+}
+.second_section .grid > div:nth-of-type(16) > .dark > .caption {
+  display: flex;
+  height: 40px;
+  width: 100%;
+  background-color: rgba(241, 241, 241, 0.712);
+  justify-content: space-evenly;
+}
+.second_section .grid > div:nth-of-type(16) > .dark > .caption > a {
+  display: flex;
+  height: 100%;
+  width: 33%;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+.second_section .grid > div:nth-of-type(16) > .dark > .caption > a:hover {
+  background-color: white;
+}
+.second_section .grid > div:nth-of-type(16) > .dark > .caption > a > i {
+  font-size: 20px;
+}
+.second_section .grid > div:nth-of-type(17) {
+  background-color: whitesmoke;
+  grid-area: 12/3/span 2/span 2;
+  position: relative;
+}
+.second_section .grid > div:nth-of-type(17):hover > a > i {
+  opacity: 1;
+}
+.second_section .grid > div:nth-of-type(17) > .row {
+  padding: 20px;
+}
+.second_section .grid > div:nth-of-type(17) > .row > i {
+  font-size: 20px;
+  padding-top: 30px;
+  color: rgb(174, 174, 174);
+}
+.second_section .grid > div:nth-of-type(17) > .row > p {
+  padding: 10px 0;
+  color: black;
+}
+.second_section .grid > div:nth-of-type(17) > .row > span {
+  color: rgb(92, 92, 92);
+}
+.second_section .grid > div:nth-of-type(17) > a > i {
+  display: flex;
+  font-size: 30px;
+  justify-content: end;
+  padding-right: 10px;
+  opacity: 0;
+  transition: 0.4s;
+}
+.second_section .grid > div:nth-of-type(18) {
+  background-color: whitesmoke;
+  grid-area: 11/5/span 2/span 2;
+  position: relative;
+}
+.second_section .grid > div:nth-of-type(18):hover > a > i {
+  opacity: 1;
+}
+.second_section .grid > div:nth-of-type(18) > .row {
+  padding: 20px;
+}
+.second_section .grid > div:nth-of-type(18) > .row > i {
+  font-size: 20px;
+  padding-top: 30px;
+  color: rgb(174, 174, 174);
+}
+.second_section .grid > div:nth-of-type(18) > .row > p {
+  padding: 10px 0;
+  color: black;
+}
+.second_section .grid > div:nth-of-type(18) > .row > span {
+  color: rgb(92, 92, 92);
+}
+.second_section .grid > div:nth-of-type(18) > a > i {
+  display: flex;
+  font-size: 30px;
+  justify-content: end;
+  padding-right: 10px;
+  opacity: 0;
+  transition: 0.4s;
+}
+
+.third_section {
+  width: 100%;
+  min-height: 20vh;
+  background-color: white;
+}
+.third_section > .row {
+  justify-content: center;
+}
+.third_section > .row > div:nth-of-type(1) {
+  border-bottom: 1px solid rgba(146, 146, 146, 0.591);
+  width: 100%;
+  min-height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.third_section > .row > div:nth-of-type(1) > a {
+  padding: 40px;
+  font-size: 25px;
+  font-family: amatic;
+  transition: 0.4s;
+}
+.third_section > .row > div:nth-of-type(1) > a > .row > i {
+  padding-right: 10px;
+}
+.third_section > .row > div:nth-of-type(1) > a:hover {
+  color: salmon;
+  font-size: 27px;
+}
+.third_section > .row > div:nth-of-type(2) {
+  width: 60%;
+  min-height: 5vh;
+}
+.third_section > .row > div:nth-of-type(2) > .row {
+  height: 100%;
+  align-items: center;
+}
+.third_section > .row > div:nth-of-type(2) > .row > p {
+  width: 60%;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: lighter;
+  color: rgb(146, 146, 146);
+}
+.third_section > .row > div:nth-of-type(2) > .row > a {
+  display: flex;
+  justify-content: end;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: lighter;
+  color: rgb(146, 146, 146);
+  width: 40%;
+  transition: 0.4s;
+}
+.third_section > .row > div:nth-of-type(2) > .row > a:hover {
+  color: salmon;
+}/*# sourceMappingURL=Master.css.map */
