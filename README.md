@@ -1,6 +1,6 @@
 # Fashion_Template_With_Grid
 
-**If you're in the fashion industry and you want to showcase photos of the clothes and other items you've designed on your website, this template is the best choice for you. So, take a look at my code ♥️🎀**
+**If you're in the fashion industry and you want to showcase photos of the clothes and other items you've designed on your website, this template is the best choice for you. So, check out my code ♥️🎀**
 
 ![screencapture-mehrsa-mohajeri-developer-github-io-Fashion-Template-With-Grid-2023-09-27-18_14_58](https://github.com/Mehrsa-Mohajeri-Developer/Fashion_Template_With_Grid/assets/145048780/656dcf37-0411-48fc-aae5-8136a80e8209)
 
