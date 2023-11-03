@@ -1,4 +1,4 @@
-# Fashion_Template_With_Grid
+# Fashion_Template_Project_3
 
 **If you're in the fashion industry and you want to showcase photos of the clothes and other items you've designed on your website, this template is the best choice for you. So, check out my code ♥️🎀**
 
